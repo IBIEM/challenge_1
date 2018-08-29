@@ -62,7 +62,7 @@ ggplot(mpg, aes(cty, hwy, color = class)) +
 ```
 6. Save the file as `challenge1_part2` (RStudio will automatically add ".Rmd") 
 7. Knit the R Notebook to HTML by clicking on the triangle next to the *Knit* button (it might say *Preview* instead of *Knit*) and selecting *Knit to HTML*
-8. If the knitting is successful, RStudio should pop open another window with the results.  It should look something like [this](challenge1_part2.html).
+8. If the knitting is successful, RStudio should pop open another window with the results.
 9. Follow the directions below for [Committing Changes](#commit-changes).  For this part of the assignment you should commit:
   - challenge1_part2.Rmd: the R Notebook that you created
   - challenge1_part2.html: the HTML file you knitted from your R Notebook
