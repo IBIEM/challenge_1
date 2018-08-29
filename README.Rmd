@@ -1,0 +1,47 @@
+---
+title: "Challenge 1: Mastering RStudio, Git, and Github"
+date: "August 31, 2018"
+subtitle: 'This is the subtitle'
+output:
+  md_document:
+    variant: markdown_github
+#    toc: true
+  html_document:
+    toc: true
+#    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The goal of this challenge is to get you more comfortable with RStudio, git, Github, and submitting assignments through Github.  You will need to:
+
+1. [Initialize a new project in RStudio.](#initialize-a-new-project)
+
+2. [Make changes to R code in an Rmarkdown file.](#hack-some-r-code)
+
+3. [Knit the Rmarkdown file to generate an HTML report](#knit-the-rmarkdown)
+
+4. [Commit the changes you made to the Rmarkdown file and the HTML report you generated](#commit-changes)
+
+5. [Submit your work by pushing changes to Github](#submit-your-work)
+
+# Initialize a New Project
+1. On the main page for **this Github repository** click on the *Clone or download* button.
+2. In the dialog box that posp up, click "Use SSH", then click on the clipboard icon to copy the repo URL.
+3. In RStudio use the New Project command (from the Project menu)
+4. Choose "Version Control" in the *Create Project* dialog box
+5. Choose Git
+6. Paste the repo URL into the *Repository URL*.  It should be something like `git@github.com:IBIEM/challenge_1.git`, but with your Github username as part of it.
+7. For *Project directory name* put `challenge_1`
+8. Leave *Create project as subdirectory of* as "~"
+9. Click Create Project.
+
+# Hack Some R code
+
+# Knit the Rmarkdown
+
+# Commit Changes
+
+# Submit Your Work
