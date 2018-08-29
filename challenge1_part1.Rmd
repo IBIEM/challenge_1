@@ -26,6 +26,7 @@ ggplot(rand.df, aes(x=x.rand, y=y.rand)) +
 ```
 
 # Session Info
+Always print `sessionInfo` for reproducibility!
 ```{r}
 sessionInfo()
 ```
