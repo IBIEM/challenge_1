@@ -20,10 +20,12 @@ The goal of this challenge is to get you more comfortable with RStudio, git, Git
 1. [Initialize a new project in RStudio.](#initialize-a-new-project)
 
 2. [Make changes to R code in an Rmarkdown file.](#hack-some-r-code)
+    1. [Knit the Rmarkdown file to generate an HTML report](#knit-the-rmarkdown)
+    2. [Commit the changes you made to the Rmarkdown file and the HTML report you generated](#commit-changes)
 
-3. [Knit the Rmarkdown file to generate an HTML report](#knit-the-rmarkdown)
-
-4. [Commit the changes you made to the Rmarkdown file and the HTML report you generated](#commit-changes)
+5. [Make a new R Notebook](#new-r-notebook)
+    1. [Knit the Rmarkdown file to generate an HTML report](#knit-the-rmarkdown)
+    2. [Commit the new Rmarkdown file and the HTML report you generated](#commit-changes)
 
 5. [Submit your work by pushing changes to Github](#submit-your-work)
 
@@ -38,10 +40,12 @@ The goal of this challenge is to get you more comfortable with RStudio, git, Git
 8. Leave *Create project as subdirectory of* as "~"
 9. Click Create Project.
 
-# Hack Some R code
+# Modify Rmarkdown
 
 # Knit the Rmarkdown
 
 # Commit Changes
+
+# New R Notebook
 
 # Submit Your Work
