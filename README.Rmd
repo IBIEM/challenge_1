@@ -54,7 +54,7 @@ Your first task is to make some changes to an R Notebook that is include in this
   1. Below the title add: `author: "YOUR NAME"`
   2. Below the author add: `date:` followed by the date (or follow [these instructions](https://stackoverflow.com/a/23529410) for automatically updating the date)
 2. Save these changes and [Knit to HTML](#knit-the-rmarkdown) to check that your changes are reflected in the HTML output.
-3. Once you are happy with the changes, its a good idea to [commit them](#commit-changes)
+3. Once you are happy with the changes, its a good idea to [commit them](#commit-changes).  You don't need to commit the HTML at this point, just the .Rmd file.
 
 ### Modify Colors
 1. The colors I used for the regression line and the 95% confidence interval are hideous. Make them less ugly by replacing the colors in `color="green", fill="orange"` .  Just about any color you can think of will work (you can run `colors()` to see all the named colors that R knows about).
@@ -84,6 +84,13 @@ ggplot(mpg, aes(cty, hwy, color = class)) +
 # Knit the Rmarkdown
 1. Knit the R Notebook to HTML by clicking on the triangle next to the *Knit* button (it might say *Preview* instead of *Knit*) and selecting *Knit to HTML*
 2. If the knitting is successful, RStudio should pop open another window with the results.
+
 # Commit Changes
+1. Click on *Commit* in the *Git* pane to open the Commit dialog box.
+2. Review the changes that you made, once you convince yourself that you are happy with them, click the checkbox under **Staged** to add the file to the repo.
+3. Write an **informative** commit message in the *Commit message* box and click the *Commit* button.
+4. Optional: Push changes to Github by clicking the *Commit* button.
+5. Now click **Commit** to open the **Review Changes** dialog, put in the
+
 
 # Submit Your Work
