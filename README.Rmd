@@ -1,7 +1,7 @@
 
 # Challenge 1: Mastering RStudio, Git, and Github
-## August 31, 2018
-## Due at 6pm on September 14, 2018
+- August 31, 2018
+- Due at 6pm on September 14, 2018
 
 # Assignment
 The goal of this challenge is to get you more comfortable with RStudio, git, Github, and submitting assignments through Github.  You will need to:
@@ -17,7 +17,7 @@ The goal of this challenge is to get you more comfortable with RStudio, git, Git
     1. [Knit the Rmarkdown file to generate an HTML report](#knit-the-rmarkdown)
     2. [Commit your work](#commit-changes)
 
-4. [Submit your work by pushing changes to Github](#submit-your-work)
+4. [Submitting the Assignment](#submitting-the-assignment)
 
 ## Initialize a New Project
 1. On the main page for **this Github repository** click on the *Clone or download* button.
@@ -81,5 +81,11 @@ ggplot(mpg, aes(cty, hwy, color = class)) +
 4. Optional: Push changes to Github by clicking the *Commit* button.
 5. Now click **Commit** to open the **Review Changes** dialog, put in the
 
+## Submitting the Assignment
+We are using *Github Classroom* for managing code related assignment  When you receive an individual assignment, *Github Classroom* automatically make you a personal copy of the assignment repository.  Since you will are working in your own copy of the repository, you are the only one committing to it, so do not have to worry about conflicts.  At the assignment deadline *Github Classroom*  automatically submits the current state of your personal repository, so as long as you have committed your work by the deadline, there is nothing special you need to do to submit.  For this assignment you should have these files commited before the deadline:
 
-## Submit Your Work
+- challenge1_part1.Rmd : your modified version of the R Notebook that you received in your repo
+- challenge1_part1.html : the output from knitting your revised `challenge1_part1.Rmd`
+- challenge1_part2.Rmd : the R Notebook that you created
+- challenge1_part2.html : the output from knitting your `challenge1_part2.Rmd`
+
