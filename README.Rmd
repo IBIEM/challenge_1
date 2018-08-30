@@ -1,23 +1,20 @@
 
 # Challenge 1: Mastering RStudio, Git, and Github
-- August 31, 2018
-- Due at 6pm on September 14, 2018
+- *Assigned: August 31, 2018*
+- *Due: at 6pm on September 14, 2018*
+
+You should have received an email invitation to access this assigment in Github Classroom.  If you haven't received it by the end of class on August 31st, please contact the TAs.
 
 # Assignment
 The goal of this challenge is to get you more comfortable with RStudio, git, Github, and submitting assignments through Github.  You will need to:
 
-1. [Initialize a new project in RStudio.](#initialize-a-new-project)
+1. [Initialize a new project in RStudio](#initialize-a-new-project)
 
-2. [Part 1: Modifiying an Existing R Notebook](#modifiying-an-existing-r-notebook)
-  2. [Make changes to the R Notebook.](#modify-rmarkdown)
-  3. [Generate an HTML report](#knit-the-rmarkdown)
-  4. [Commit your work](#commit-changes)
+2. *Part 1:* [Modifiying an Existing R Notebook](#modifiying-an-existing-r-notebook)
 
-3. [Part 2: Make a new R Notebook](#new-r-notebook)
-    1. [Knit the Rmarkdown file to generate an HTML report](#knit-the-rmarkdown)
-    2. [Commit your work](#commit-changes)
+3. *Part 2:* [Make a new R Notebook](#making-a-new-r-notebook)
 
-4. [Submitting the Assignment](#submitting-the-assignment)
+4. [Submit the Assignment](#submitting-the-assignment)
 
 ## Initialize a New Project
 1. On the main page for **this Github repository** click on the *Clone or download* button.
@@ -32,25 +29,24 @@ The goal of this challenge is to get you more comfortable with RStudio, git, Git
 
 ## Modifiying an Existing R Notebook
 Your first task is to make some changes to an R Notebook that is include in this challenge repository.  
-### Modify Rmarkdown
-#### Getting Started
+### Getting Started
 1. Be sure you are in your new *challenge_1* project (it should say "challenge_1" in the top right corner of the Rstudio window).
 2. Open `challenge1_part1.Rmd` in RStudio
 3. Before you start, [Knit the Rmarkdown to HTML](#knit-the-rmarkdown) to get a feel for how it looks before you make changes.
 
-#### Modify the Header
+### Modify the Header
 1. Edit the YAML header (the stuff between the two sets of three dashes: `---`)
   1. Below the title add: `author: "YOUR NAME"`
   2. Below the author add: `date:` followed by the date (or follow [these instructions](https://stackoverflow.com/a/23529410) for automatically updating the date)
 2. Save these changes and [Knit to HTML](#knit-the-rmarkdown) to check that your changes are reflected in the HTML output.
 3. Once you are happy with the changes, its a good idea to [commit them](#commit-changes).  You don't need to commit the HTML at this point, just the .Rmd file.
 
-#### Modify Colors
+### Modify Colors
 1. The colors I used for the regression line and the 95% confidence interval are hideous. Make them less ugly by replacing the colors in `color="green", fill="orange"` .  Just about any color you can think of will work (you can run `colors()` to see all the named colors that R knows about).
 2. Save these changes and [Knit to HTML](#knit-the-rmarkdown) to check that your changes are reflected in the HTML output.
 3. Once you are happy with the changes, its a good idea to [commit them](#commit-changes)
 
-## New R Notebook
+## Making a New R Notebook
 1. Use the *File* menu to to open a new R Notebook
 2. Edit the YAML header (the stuff between the two sets of three dashes: `---`)
   1. Change the title to "Challenge 1, Part 2"
@@ -84,8 +80,8 @@ ggplot(mpg, aes(cty, hwy, color = class)) +
 ## Submitting the Assignment
 We are using *Github Classroom* for managing code related assignment  When you receive an individual assignment, *Github Classroom* automatically make you a personal copy of the assignment repository.  Since you will are working in your own copy of the repository, you are the only one committing to it, so do not have to worry about conflicts.  At the assignment deadline *Github Classroom*  automatically submits the current state of your personal repository, so as long as you have committed your work by the deadline, there is nothing special you need to do to submit.  For this assignment you should have these files commited before the deadline:
 
-- challenge1_part1.Rmd : your modified version of the R Notebook that you received in your repo
-- challenge1_part1.html : the output from knitting your revised `challenge1_part1.Rmd`
-- challenge1_part2.Rmd : the R Notebook that you created
-- challenge1_part2.html : the output from knitting your `challenge1_part2.Rmd`
+- `challenge1_part1.Rmd` : your modified version of the R Notebook that you received in your repo
+- `challenge1_part1.html` : the output from knitting your revised `challenge1_part1.Rmd`
+- `challenge1_part2.Rmd` : the R Notebook that you created
+- `challenge1_part2.html` : the output from knitting your `challenge1_part2.Rmd`
 
