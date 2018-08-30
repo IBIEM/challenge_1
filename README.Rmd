@@ -22,8 +22,8 @@ The goal of this challenge is to get you more comfortable with RStudio, git, Git
 3. In RStudio use the New Project command (from the Project menu)
 4. Choose "Version Control" in the *Create Project* dialog box
 5. Choose Git
-6. Paste the repo URL into the *Repository URL*.  It should be something like `git@github.com:IBIEM/challenge_1.git`, but with your Github username as part of it.
-7. For *Project directory name* put `challenge_1`
+6. Paste the repo URL into the *Repository URL*.  It should be something like `git@github.com:IBIEM/challenge-1-[USERNAME].git`, but with your Github username substituted for the `[USERNAME]` part.
+7. For *Project directory name* put `challenge_1` or `challenge-1-[USERNAME]`
 8. Leave *Create project as subdirectory of* as "~"
 9. Click Create Project.
 
