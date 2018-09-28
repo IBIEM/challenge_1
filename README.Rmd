@@ -74,7 +74,7 @@ ggplot(mpg, aes(cty, hwy, color = class)) +
 1. Click on *Commit* in the *Git* pane to open the Commit dialog box.
 2. Review the changes that you made, once you convince yourself that you are happy with them, click the checkbox under **Staged** to add the file to the repo.
 3. Write an **informative** commit message in the *Commit message* box and click the *Commit* button.
-4. Optional: Push changes to Github by clicking the *Push* button. You don't need to do this every commit . . . but then again, why not? Who doesn't need more off-site backup?
+4. Optional: Push changes to Github by clicking the *Push* button (sometimes the *Push* button just shows up as a green arrow pointing up). You don't need to do this every commit . . . but then again, why not? Who doesn't need more off-site backup?
 
 ## Submitting the Assignment
 We are using *Github Classroom* for managing code related assignment  When you receive an individual assignment, *Github Classroom* automatically make you a personal copy of the assignment repository.  Since you will are working in your own copy of the repository, you are the only one committing to it, so do not have to worry about conflicts.  At the assignment deadline *Github Classroom*  automatically submits the current state of your personal repository, so as long as you have committed your work by the deadline, there is nothing special you need to do to submit.  For this assignment you should have these files commited before the deadline:
