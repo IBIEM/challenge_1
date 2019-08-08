@@ -18,11 +18,11 @@ The goal of this challenge is to get you more comfortable with RStudio, git, Git
 
 ## Initialize a New Project
 1. On the main page for **this Github repository** click on the *Clone or download* button.
-2. In the dialog box that posp up, click "Use SSH", then click on the clipboard icon to copy the repo URL.
+2. In the dialog box that pops up, click "Use SSH", then click on the clipboard icon to copy the repo URL.
 3. In RStudio use the New Project command (from the Project menu)
 4. Choose "Version Control" in the *Create Project* dialog box
 5. Choose Git
-6. Paste the repo URL into the *Repository URL*.  It should be something like `git@github.com:IBIEM/challenge-1-[USERNAME].git`, but with your Github username substituted for the `[USERNAME]` part.
+6. Paste the repo URL into the *Repository URL*.  It should be something like `git@github.com:ibiem-2019/challenge-1-[USERNAME].git`, but with your Github username substituted for the `[USERNAME]` part.
 7. For *Project directory name* put `challenge_1` or `challenge-1-[USERNAME]`
 8. Leave *Create project as subdirectory of* as "~"
 9. Click Create Project.
@@ -77,7 +77,7 @@ ggplot(mpg, aes(cty, hwy, color = class)) +
 4. Optional: Push changes to Github by clicking the *Push* button (sometimes the *Push* button just shows up as a green arrow pointing up). You don't need to do this every commit . . . but then again, why not? Who doesn't need more off-site backup?
 
 ## Submitting the Assignment
-We are using *Github Classroom* for managing code related assignment  When you receive an individual assignment, *Github Classroom* automatically make you a personal copy of the assignment repository.  Since you will are working in your own copy of the repository, you are the only one committing to it, so do not have to worry about conflicts.  At the assignment deadline *Github Classroom*  automatically submits the current state of your personal repository, so as long as you have committed your work by the deadline, there is nothing special you need to do to submit.  For this assignment you should have these files commited before the deadline:
+We are using *Github Classroom* for managing code related assignment  When you receive an individual assignment, *Github Classroom* automatically makes a personal copy of the assignment repository.  Since you are working in your own copy of the repository, you are the only one committing to it, so do not have to worry about conflicts.  At the assignment deadline *Github Classroom*  automatically submits the current state of your personal repository, so as long as you have committed your work by the deadline, there is nothing special you need to do to submit.  For this assignment you should have these files commited before the deadline:
 
 - `challenge1_part1.Rmd` : your modified version of the R Notebook that you received in your repo
 - `challenge1_part1.html` : the output from knitting your revised `challenge1_part1.Rmd`
