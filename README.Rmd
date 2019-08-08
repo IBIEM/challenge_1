@@ -1,9 +1,5 @@
 
 # Challenge 1: Mastering RStudio, Git, and Github
-- *Assigned: August 31, 2018*
-- *Due: at 6pm on September 14, 2018*
-
-You should have received an email invitation to access this assigment in Github Classroom.  If you haven't received it by the end of class on August 31st, please contact the TAs.
 
 # Assignment
 The goal of this challenge is to get you more comfortable with RStudio, git, Github, and submitting assignments through Github.  You will need to:
